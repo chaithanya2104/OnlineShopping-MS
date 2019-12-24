@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93650d59-5d5b-4375-add1-f3a4387b2ea6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ConfigurationServer/src/main/resources/item-service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigurationServer/src/main/resources/sales-service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationServer" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationServer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer" beforeDir="false" afterPath="$PROJECT_DIR$/Customer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/example/customers/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/src/main/java/com/example/customers/controller/CustomerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/example/customers/model/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/src/main/java/com/example/customers/model/Customers.java" afterDir="false" />
@@ -18,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ConfigurationServer" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ConfigurationServer/src/main/resources" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -38,6 +41,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -45,18 +52,66 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\chacha\MS-1" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SalesApplication">
+    <configuration name="ConfigurationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ConfigurationServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ConfigurationServer.ConfigurationServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.customers.CustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Item" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Item.ItemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Sales" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Sales.SalesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -76,14 +131,26 @@
       <workItem from="1577115778807" duration="951000" />
       <workItem from="1577119765530" duration="30000" />
       <workItem from="1577119853249" duration="22000" />
-      <workItem from="1577210326074" duration="373000" />
+      <workItem from="1577210326074" duration="7499000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/ConfigurationServer" />
+      <path value="$PROJECT_DIR$/ConfigurationServer/src/main/resources" />
+      <path value="$PROJECT_DIR$/Customer" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="584" y="174" key="#SalesApplication_(1)" timestamp="1577224406798">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="584" y="174" key="#SalesApplication_(1)/0.0.1920.1080@0.0.1920.1080" timestamp="1577224406798" />
     <state x="434" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577115806169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -96,10 +163,58 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577119789685" />
-    <state x="448" y="121" key="SettingsEditor" timestamp="1577210699342">
+    <state width="1294" height="386" key="GridCell.Tab.0.bottom" timestamp="1577224948154">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1577210699342" />
+    <state width="1294" height="386" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1577224948154" />
+    <state width="1294" height="386" key="GridCell.Tab.0.center" timestamp="1577224948153">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="386" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1577224948153" />
+    <state width="1294" height="386" key="GridCell.Tab.0.left" timestamp="1577224948152">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="386" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1577224948152" />
+    <state width="1294" height="386" key="GridCell.Tab.0.right" timestamp="1577224948153">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="386" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1577224948153" />
+    <state width="1294" height="386" key="GridCell.Tab.1.bottom" timestamp="1577224948155">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="386" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1577224948155" />
+    <state width="1294" height="386" key="GridCell.Tab.1.center" timestamp="1577224948154">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="386" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1577224948154" />
+    <state width="1294" height="386" key="GridCell.Tab.1.left" timestamp="1577224948154">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="386" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1577224948154" />
+    <state width="1294" height="386" key="GridCell.Tab.1.right" timestamp="1577224948155">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="386" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1577224948155" />
+    <state width="1294" height="386" key="GridCell.Tab.2.bottom" timestamp="1577223587941">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="386" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1577223587941" />
+    <state width="1294" height="386" key="GridCell.Tab.2.center" timestamp="1577223587941">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="386" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1577223587941" />
+    <state width="1294" height="386" key="GridCell.Tab.2.left" timestamp="1577223587940">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="386" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1577223587940" />
+    <state width="1294" height="386" key="GridCell.Tab.2.right" timestamp="1577223587941">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1294" height="386" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1577223587941" />
+    <state x="448" y="121" key="SettingsEditor" timestamp="1577212929042">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1577212929042" />
     <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1577119857345">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

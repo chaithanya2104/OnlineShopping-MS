@@ -10,7 +10,6 @@
         <module name="Item" />
         <module name="ConfigurationServer" />
         <module name="Sales" />
-        <module name="MS-1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

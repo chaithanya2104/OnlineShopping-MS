@@ -1,13 +1,14 @@
 package com.example.Sales.model;
 
+import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import java.util.Date;
 
 @Entity
+@Data
 public class SalesOrder {
 
     @Id
@@ -15,9 +16,9 @@ public class SalesOrder {
 //    @OneToOne(mappedBy = "order_id")
     private Long id;
 
-    @DateTimeFormat(pattern = "mm/dd/yyyy")
+   @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;
-    @Email
+//    @Email
     private String email;
 
     private String description;
@@ -31,42 +32,6 @@ public class SalesOrder {
         this.email=email;
         this.description=description;
         this.price=price;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
     }
 
     @Override
