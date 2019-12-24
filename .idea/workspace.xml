@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93650d59-5d5b-4375-add1-f3a4387b2ea6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ConfigurationServer/src/main/resources/item-service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigurationServer/src/main/resources/sales-service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/example/customers/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/src/main/java/com/example/customers/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/example/customers/model/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/src/main/java/com/example/customers/model/Customers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/example/customers/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/src/main/java/com/example/customers/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/example/customers/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/src/main/java/com/example/customers/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/src/main/resources/bootstrap.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ConfigurationServer" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1VOEX9kzW3Cy6x3TLe26mqa40fu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chacha\MS-1" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93650d59-5d5b-4375-add1-f3a4387b2ea6" name="Default Changelist" comment="" />
+      <created>1577115777091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577115777091</updated>
+      <workItem from="1577115778807" duration="951000" />
+      <workItem from="1577119765530" duration="30000" />
+      <workItem from="1577119853249" duration="22000" />
+      <workItem from="1577210326074" duration="373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="434" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577115806169">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="434" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1577115806169" />
+    <state x="580" y="236" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1577210350396">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="580" y="236" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1577210350396" />
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1577119789685">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577119789685" />
+    <state x="448" y="121" key="SettingsEditor" timestamp="1577210699342">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1577210699342" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1577119857345">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577119857345" />
+  </component>
+</project>
